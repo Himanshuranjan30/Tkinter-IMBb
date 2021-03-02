@@ -17,7 +17,7 @@ canvas1.create_window(200, 100, window=label2)
 entry1 = tk.Entry (root) 
 canvas1.create_window(200, 140, window=entry1)
 
-def getSquareRoot ():
+def getrating ():
     
     x1 = entry1.get()
     movie=str(x1)
