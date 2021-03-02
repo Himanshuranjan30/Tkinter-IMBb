@@ -39,7 +39,7 @@ def getrating ():
     label4 = tk.Label(root, text= rating,font=('helvetica', 10, 'bold'))
     canvas1.create_window(200, 230, window=label4)
     
-button1 = tk.Button(text='Get the Rating', command=getSquareRoot, bg='brown', fg='white', font=('helvetica', 9, 'bold'))
+button1 = tk.Button(text='Get the Rating', command=getrating, bg='brown', fg='white', font=('helvetica', 9, 'bold'))
 canvas1.create_window(200, 180, window=button1)
 
 root.mainloop()
